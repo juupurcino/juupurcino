@@ -1,10 +1,10 @@
-import Developer.juupurcino;
+```java
 
 public class About extends Developer {
     public String name = "Juliana Dias Purcino";
     public int age = 21;
     public String work = "Bosch";
-    public String local = "Curitiba";
+    public String location = "Curitiba";
   
     public String college = "Software Engineering";
     public int semester = 3;
@@ -13,6 +13,7 @@ public class About extends Developer {
         super();
     }
 }
+
 
 import Developer.juupurcino;
 
@@ -24,3 +25,4 @@ public class Skills extends Developer {
         super();
     }
 }
+```
