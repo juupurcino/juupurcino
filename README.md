@@ -1,7 +1,7 @@
 import Developer.juupurcino;
 
 public class About extends Developer {
-    public String name = "Juliana_Dias_Purcino";
+    public String name = "Juliana Dias Purcino";
     public int age = 21;
     public String work = "Bosch";
     public String local = "Curitiba";
@@ -13,6 +13,8 @@ public class About extends Developer {
         super();
     }
 }
+
+import Developer.juupurcino;
 
 public class Skills extends Developer {
     public String[] languages = { "Python", "C", "Java" };
