@@ -1,13 +1,24 @@
-<h2 align="left">Hii! I'm Juu 👍🏼</h2>
+import Developer.juupurcino;
 
-###
+public class About extends Developer {
+    public String name = "Juliana_Dias_Purcino";
+    public int age = 21;
+    public String work = "Bosch";
+    public String local = "Curitiba";
+  
+    public String college = "Software Engineering";
+    public int semester = 3;
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-</div>
+    public About() {
+        super();
+    }
+}
 
-###
+public class Skills extends Developer {
+    public String[] languages = { "Python", "C", "Java" };
+    public String[] databases = { "SQL Server", "MySQL" };
+
+    public Skills() {
+        super();
+    }
+}
