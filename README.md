@@ -3,7 +3,7 @@
 import Developer.juupurcino;
 
 public class About extends Developer {
-    public String name = "Juliana Dias Purcino";
+    public String name = "Julian_Dias_Purcino";
     public int age = 21;
     public String work = "Bosch";
     public String location = "Curitiba";
