@@ -10,10 +10,6 @@ public class About extends Developer {
   
     public String college = "Software Engineering";
     public int semester = 3;
-
-    public About() {
-        super();
-    }
 }
 
 public class Skills extends Developer {
